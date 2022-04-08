@@ -5,9 +5,13 @@ const { Item } = Form;
 
 function App() {
   return (
-    <div className="test">
-      <div className="body-form">
-        <Form labelCol={{ span: 2 }} wrapperCol={{ span: 16 }}>
+    <div className="forms-bg">
+      <div className="forms">
+        <Form
+          layout="horizontal"
+          labelCol={{ span: 3 }}
+          // wrapperCol={{ span: 16 }}
+        >
           <Item label="Nama" name="name">
             <Input size="small" />
           </Item>

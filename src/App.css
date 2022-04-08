@@ -1,11 +1,16 @@
 @import '~antd/dist/antd.css';
 
-.body-form {
-  max-width: 900px;
-  margin: 0px auto;
+.forms-bg {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px 20px 10px 0px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
-
-.test {
-  display: flex;
-  justify-content: center;
+.forms {
+  width: 100%;
 }
